@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João - Página Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>João vieira neto</h1>
+      <p>Estudante de Tecnologia</p>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+
+    <section id="sobre" class="card">
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Sou estudante de tecnologia na Estácio, estudando
+        Desenvolvimento Web, Python, Banco de Dados e Estruturas de Dados.
+        Estou construindo este site para praticar HTML, CSS e JavaScript.
+      </p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Habilidades</h2>
+      <ul class="skills-list">
+        <li>HTML5 &amp; CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>PHP</li>
+        <li>Banco de Dados</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>Contato</h2>
+      <p>Quer trocar uma ideia? Clique no botão abaixo!</p>
+      <button id="btn-contato">Mandar mensagem</button>
+      <p id="mensagem" class="hidden">Obrigado pelo interesse! Em breve entro em contato. 🚀</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="ano"></span> João. Feito com HTML, CSS e JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
