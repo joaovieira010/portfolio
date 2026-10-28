@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lanchonete</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍔 Lanchonete</h1>
+  <button onclick="abrirCarrinho()">🛒 Carrinho (<span id="contador">0</span>)</button>
+</header>
+
+<div id="produtos"></div>
+
+<div id="painelCarrinho" class="carrinho">
+  <h2>Seu Pedido</h2>
+  <div id="itensCarrinho"></div>
+
+  <input id="cupom" placeholder="Cupom (ex: LANCH10)">
+  <button onclick="aplicarCupom()">Aplicar Cupom</button>
+
+  <p>Subtotal: R$ <span id="subtotal">0.00</span></p>
+  <p>Desconto: R$ <span id="desconto">0.00</span></p>
+  <p>Total: R$ <span id="total">0.00</span></p>
+
+  <h3>Entrega</h3>
+  <input id="nome" placeholder="Seu nome">
+  <input id="telefone" placeholder="Telefone">
+  <input id="endereco" placeholder="Endereço">
+
+  <button onclick="finalizarPedido()">Finalizar no WhatsApp</button>
+  <button onclick="fecharCarrinho()">Fechar</button>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
