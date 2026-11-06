@@ -1,63 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>João - Página Pessoal</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vieira | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-  <header class="header">
-    <div class="container">
-      <h1>João vieira neto</h1>
-      <p>Estudante de Tecnologia</p>
-    </div>
-  </header>
+    <header>
+      <a href="#inicio" class="logo">JV<span>.</span></a>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-  <nav class="nav">
-    <ul>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#skills">Habilidades</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
+    </header>
 
-  <main class="container">
+    <main>
+      <section id="inicio" class="hero">
 
-    <section id="sobre" class="card">
-      <h2>Sobre mim</h2>
-      <p>
-        Olá! Sou estudante de tecnologia na Estácio, estudando
-        Desenvolvimento Web, Python, Banco de Dados e Estruturas de Dados.
-        Estou construindo este site para praticar HTML, CSS e JavaScript.
-      </p>
-    </section>
+        <p class="status"> DISPONIVEL PARA ESTÁGIO EM TI</p>
 
-    <section id="skills" class="card">
-      <h2>Habilidades</h2>
-      <ul class="skills-list">
-        <li>HTML5 &amp; CSS3</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>PHP</li>
-        <li>Banco de Dados</li>
-      </ul>
-    </section>
+        <p class="destaque">OLÁ, MEU NOME É</p>
 
-    <section id="contato" class="card">
-      <h2>Contato</h2>
-      <p>Quer trocar uma ideia? Clique no botão abaixo!</p>
-      <button id="btn-contato">Mandar mensagem</button>
-      <p id="mensagem" class="hidden">Obrigado pelo interesse! Em breve entro em contato. 🚀</p>
-    </section>
+        <h1>João Vieira<span>.</span></h1>
 
-  </main>
+        <h2>ESTUDANTE DE ADS | DESENVOLVEDOR EM FORMAÇÃO</h2>
 
-  <footer class="footer">
-    <p>&copy; <span id="ano"></span> João. Feito com HTML, CSS e JS.</p>
-  </footer>
+        <p class="descricao">
+          Estou construindo minha jornada na programação,
+                aprendendo novas tecnologias e desenvolvendo
+                projetos para transformar conhecimento em prática.
+        </p>
 
-  <script src="script.js"></script>
-</body>
+        <a href="#projetos" class="botao">
+           Conheça meus projetos →
+        </a>
+
+      </section>
+
+      <section id="sobre" class="secao">
+        <h2>Sobre mim</h2>
+        <p>
+          Sou estudante de Análise e Desenvolvimento de Sistemas
+         e estou me preparando para iniciar minha carreira em TI.
+        </p>
+      </section>
+
+      <section id="projetos" class="secao">
+        <h2>Projetos</h2>
+        <p>Meus projetos práticos serão apresentados aqui.</p>
+
+      </section>
+
+      <section id="contato" class="secao">
+        <h2>Contato</h2>
+        <p>Em breve, meus contatos profissionais estarão aqui.</p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 João Vieira — Em constante evolução.</p>
+    </footer>
+
+   
+  </body>
 </html>
